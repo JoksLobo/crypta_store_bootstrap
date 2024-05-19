@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Metal+Mania&display=swap" rel="stylesheet">
+    <title>Crypta Records Store</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Crypta Record Store</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li>
+                            <a class="nav-link active" href="#lancamentos">Lançamentos</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="carousel carousel-fade slide" id="carousel-exemplo">
+        <div class="carousel-inner" data-bs-ride="carousel">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img id="carousel-imagens" class="d-block w-100" src="./imagens/guitar-3943201_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>Acústico de Javier Saint tem data de lançamento anunciada.</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img id="carousel-imagens" class="d-block w-100" src="./imagens/musician-1658887_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>10 Novos guitarristas virtuosos que você precisa ouvir.</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item ">
+                <img id="carousel-imagens" class="d-block w-100" src="./imagens/singer-5989931_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>Line-up do festival "Metal Madness" já foi anunciado.</h2>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-exemplo " data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo " data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo " data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="lancamentos">
+            <h2>Lançamentos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/disco1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Hammer - Gods of Asgard</h4>
+                                <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/disco2.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Maniac - The Graveyard</h4>>
+                                <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                        
+                    </div>
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/disco3.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Everyday Madmen - Consume</h4                              <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/disco4.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Slay - Original Sound Track</h4>                            <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/album 1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Deadly Vipers</h4>
+                                <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                        
+                    </div>
+                    <div class="col-4">
+                        <article class="card p-3" style="margin-bottom: -60px;" >
+                            <img src="./imagens/album 2.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Deadly Vipers - Bloodbath in Paradise</h4>
+                                <p class="card-tex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate laudantium soluta assumenda modi eligendi quaerat aut reprehenderit debitis corrupti! Fugit ducimus dolorum quis magni deleniti blanditiis sequi omnis architecto?</p>
+                                <a href="#" class="btn btn-danger">Adicionar ao carrinho</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>17/05/2024 às 16:27</time>
+                            </footer>
+                        </article>
+                        
+                    </div>
+                    
+                </div>
+        </section>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
